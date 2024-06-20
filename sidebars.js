@@ -179,7 +179,7 @@ const sidebars = {
                 {
                     id: 'question/cat-current-version',
                     type: 'doc',
-                    label: '查看 ZFile 版本'
+                    label: '查看版本'
                 },
                 {
                     id: 'question/upload-fail-baota',
