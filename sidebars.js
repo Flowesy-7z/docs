@@ -158,7 +158,7 @@ const sidebars = {
                 {
                     id: 'question/run-multiple-instance',
                     type: 'doc',
-                    label: '如何运行多个 ZFile 实例？'
+                    label: '如何运行多个AikanPro实例？'
                 },
                
                 {
