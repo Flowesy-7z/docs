@@ -1,0 +1,61 @@
+#  SG15 加密组件安装
+
+###  宝塔面板 PHP7.2（我们目前使用的版本） 组件 SG15加密 暂末更新 请手动安装
+
+###  这里教搭建两个方法来安装
+
+### 第一种：
+
+:::info sg15安装方法
+
+1. 就是纯手动安装，找到宝塔指定目录进行替换即可！（以宝塔面板最新版本为例）
+
+2. /www/server/php/72/lib/php/extensions/你的版本目录/ixed.7.2.lin 正常情况里面就一个文件夹放入后 重启PHP即可
+
+3. 在 PHP-7.2管理 -> 配置文件 -> 最后一行加入下面这行配置即可
+
+4. extension=/www/server/php/72/lib/php/extensions/no-debug-non-zts-20170718/ixed.7.2.lin
+
+   :::
+
+### 以下是图文教程
+:::info 安装第一步
+1.找到sg14插件的存放位置，以图中为例，存放在
+ /www/server/php/72/lib/php/extensions/no-debug-non-zts-20170718/
+  :::
+
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/question/sg-01.jpg"   /> </a>
+
+:::info 安装第二步
+2.找到老的sg14插件，建议更改后缀后保留，以免后续出现问题可以及时补救
+ :::
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/question/sg-02.jpg"   /> </a>
+
+:::info 安装第三步
+3.把我们新的sg15插件扔进去，一定记住插件的名字，默认下载的是 ixed.7.2.lin
+ :::
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/question/sg-03.jpg"   /> </a>
+
+:::info 安装第四步
+4.找到我们安装的php7.2 点击设置后修改配置文件，下滑到最下面有一条之前sg14的配置文件
+ :::
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/question/sg-04.jpg"   /> </a>
+
+:::info 安装第五步
+5.把刚刚我们存放sg15的文件以及目录正确的写入配置文件最后一条，如果是新增，记得把之前sg14的删掉
+:::
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/question/sg-05.png"   /> </a>
+ 
+:::info 安装第六步
+6.完事后重启php，没有报错那就是成功了，如果失败不要慌张，赶紧联系群主或大佬，之前老的sg14也没有删， 完全可以补救的
+ :::
+### 第二种：
+#### 暂无.
+
+
+

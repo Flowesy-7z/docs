@@ -191,6 +191,11 @@ const sidebars = {
                     id: 'question/download-log',
                     type: 'doc',
                     label: '如何查看/下载日志？'
+                },
+{
+                    id: 'question/sg15',
+                    type: 'doc',
+                    label: 'SG15的安装方法'
                 }
             ]
         },
