@@ -265,7 +265,7 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '自定义 JS 示例',
+            label: '自定义代码示例',
             link: {
                 type: 'generated-index',
                 title: '自定义 JS 相关示例',
