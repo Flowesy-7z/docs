@@ -46,48 +46,49 @@ const sidebars = {
                     },
                     items: [
                         {
-                            id: 'install/os-linux',
+                            id: 'install/Free-AikanFreeApi',
                             type: 'doc',
-                            label: 'Linux'
+                            label: '1、安装AikanFreeAPI'
                         },
                         {
-                            id: 'install/os-windows',
+                            id: 'install/Free-AikanFree',
                             type: 'doc',
-                            label: 'Windows'
+                            label: '2、安装AikanFree（后台）'
                         },
+                       
                         {
-                            id: 'install/os-baota',
+                            id: 'install/Free-AikanFreeApp',
                             type: 'doc',
-                            label: '宝塔'
+                            label: '3、打包AikanFreeApp'
                         },
                     ]
                 },
                 {
                     type: 'category',
-                    label: 'Pro版（AikanPro）',
+                    label: 'Pro 版（AikanPro）',
                     collapsed: false,
                     link: {
                         type: 'generated-index',
                         title: 'Pro版部署教程',
-                        description: '点击查看不同环境下的部署教程',
+                        description: '点击查看不同环境下的部署教程，请按照自上而下的顺序安装',
                         slug: '/install-pro'
                     },
                     items: [
                         {
-                            id: 'install/pro-linux',
+                            id: 'install/Pro-AikanProAPI',
                             type: 'doc',
-                            label: 'Linux'
+                            label: '1、安装AikanProAPI'
                         },
                         {
-                            id: 'install/pro-windows',
+                            id: 'install/Pro-AikanPro',
                             type: 'doc',
-                            label: 'Windows'
+                            label: '2、安装AikanPro（后台）'
                         },
                        
                         {
-                            id: 'install/pro-baota',
+                            id: 'install/Pro-AikanProApp',
                             type: 'doc',
-                            label: '宝塔'
+                            label: '3、打包AikanProApp'
                         },
                     ]
                 }, {
@@ -103,16 +104,23 @@ const sidebars = {
             label: '程序介绍',
             items: [
                
-                {
-                    id: 'feature/video',
+                 {
+                    id: 'feature/product',
                     type: 'doc',
-                    label: '视频播放'
+                    label: '产品特色'
+                },
+                {
+                    id: 'feature/intr',
+                    type: 'doc',
+                    label: '实图介绍'
                 },
                 {
                     id: 'feature/text',
                     type: 'doc',
-                    label: '文本预览'
+                    label: '更新计划'
                 }
+               
+               
 
             
             ]
@@ -145,9 +153,24 @@ const sidebars = {
             items: [
                
                 {
-                    id: 'advanced/onedrive-api',
+                    id: 'advanced/api',
                     type: 'doc',
-                    label: '自建 OneDrive API'
+                    label: 'API命令表'
+                },
+                {
+                    id: 'advanced/icon',
+                    type: 'doc',
+                    label: '图标跳转配置教程'
+                },
+                {
+                    id: 'advanced/adve',
+                    type: 'doc',
+                    label: '激励广告'
+                },
+               { 
+                    id: 'advanced/push',
+                    type: 'doc',
+                    label: '消息推送'
                 }
             ]
         },
@@ -176,15 +199,11 @@ const sidebars = {
                     type: 'doc',
                     label: '如何用域名访问？'
                 },
-                {
-                    id: 'question/cat-current-version',
-                    type: 'doc',
-                    label: '查看版本'
-                },
+               
                 {
                     id: 'question/upload-fail-baota',
                     type: 'doc',
-                    label: '上传失败怎么办？'
+                    label: '媒体上传失败怎么办？'
                 },
 
                 {
@@ -192,7 +211,7 @@ const sidebars = {
                     type: 'doc',
                     label: '如何查看/下载日志？'
                 },
-{
+                {
                     id: 'question/sg15',
                     type: 'doc',
                     label: 'SG15的安装方法'
@@ -202,9 +221,9 @@ const sidebars = {
    
         {
             type: 'category',
-            label: '存储源示例配置🔥',
+            label: '图片上传配置',
             link: {
-                description: "如果你不知道怎么配置存储源，可以点击下方你想添加的存储类型查看详细文档",
+                description: "如果你不知道怎么配置存储源，可以点击下方你想添加的存储类型查看详细文档，这里只做展示用",
                 type: 'generated-index',
             },
             items: [
@@ -299,7 +318,7 @@ const sidebars = {
                 {
                     id: 'changelog/pro',
                     type: 'doc',
-                    label: '捐赠版'
+                    label: 'Pro 版'
                 }
             ]
         },
