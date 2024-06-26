@@ -1,0 +1,215 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# AikanProAPI
+## AikanProApi安装过程目前分为两种
+#### 第一种是全自动安装：[点我跳转第一种教程](#第一种全自动安装)
+#### 第二种是纯手动安装（推荐）[点我跳转第二种教程](#第二种纯手动安装)
+## 前言
+- <span className={"text-red-500"}>  最低配置：</span>1核CPU 700M运行内存   --    <span className={"text-red-500"}>推荐配置：</span>2核CPU 2G运行内存
+
+- 此教程仅为<span className={"text-red-500"}>  CentOS 7.9 </span>系统做演示，其他系统命令大同小异，<span className={"text-red-500"}>请仔细区别安装</span>
+- 此教程只针对手动安装AikanPro的正式用户，AikanFree用户请看开源版安装，以免安装后无法正常使用！
+- 手动安装需要手动安装Java环境，建议安装<span className={"text-red-500"}> JDK1.8及以上版本</span> 安装方法请自行百度.官网：👉 [点击进入](https://www.oracle.com/java/technologies/downloads/#java8)
+
+<span className={"text-red-500"}>提示：部署  AikanPro 版之前，请先停止之前的版本，这个很重要，不然可能会造成数据文件损坏.</span>
+
+## 全新部署
+
+:::tip 安装环境
+
+由于软件运行环境原因，系统必须安装以下环境，请提前部署，以免在正式安装造成安装问题.
+
+如果你不知道你的环境到底是 `64 位` 还是 `32 位`，一般来说就是 `64 位`。
+
+需要用到的环境：
+- PHP： 7.2（需要安装插件SG15和Redis）[SG15 如何安装](/question/sg15/)
+- Redis：（5.0-7.0）推荐6.0，Redis是现在最受欢迎的NoSQL数据库之一。
+- Mysql：（5.5-5.7）推荐5.6
+- Nginx：稳定版即可，没有版本要求
+:::
+## 配置过程
+购买后请联系负责人（不出意外应该是联系我本人），给你部署程序
+不出意外应该会给/下载 一下几个文件，缺一不可！！！
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-01.png"  width="550" height="350" alt="AikanPro"/> </a>
+
+:::tip 建议安装顺序，自上而下：
+- AikanProApi.jar   
+- AikanPro（php后台）
+- App 源码
+:::
+**tips: 如果你不知道你的环境到底是 `amd64` 还是 `arm`，一般来说就是 `amd64`，一般 `arm` 架构的机器，购买时会特殊标注的。**
+
+
+## 第一种全自动安装
+ :::caution 注意
+- 选择全自动安装请不要在服务器自己安装Java环境和tomcat
+- 这将直接导致API安装后无法运行
+- 并且造成后续的一系列问题，相当于五分钟的事情你非要画蛇添足变成一两个小时搞不定
+:::
+### 第一步：执行安装脚本
+首先，执行如下命令，进入服务器opt目录
+```bash showLineNumbers
+cd /opt
+```
+#### 对于Centos
+#### 执行下方AikanProApi安装脚本，根据提示完成安装。
+
+```bash showLineNumbers
+wget https://api.aikan.pro/api/aikanproapi.sh && sh aikanproapi.sh install
+```
+<span className={"text-red-500"}>如果上述脚本执行出现问题，请拿报错信息在售后群反馈！</span>
+
+### 第二步：按照脚本提示输入信息
+:::tip 命令和填写范例如下：
+- 请输入运行端口（输入8080或者其它端口，千万别80或者443）：这里可以不填，或者填写不合其它应用冲突的端口
+- 请输入数据库名：如果安装了Typecho，就填写和Typecho一致的数据库信息
+- 请输入数据库用户名:如果安装了Typecho，就填写和Typecho一致的数据库信息
+- 请输入数据库密码:如果安装了Typecho，就填写和Typecho一致的数据库信息
+- 请输入redis密码（一般是空）:
+- 请输入系统管理密码（建议英文加数字）:系统管理里面也叫做访问Key
+:::
+### 第三步：外网访问
+- 安装完成 AikanProApi 后，需要外网访问才可以使用
+- 请新创建一个纯静态网站（不需要ftp，不需要数据库，只要纯静态并且分配单独的域名，一般是二级域名），配置SSL证书（主要提升安全性和后续方便）
+- 将如下代码放入这个新建网站的伪静态配置中
+- 下方的代码实现了反向代理和跨域，同时8080请替换为你上个步骤设置的API端口，127.0.0.1这条请不要变更。
+```bash showLineNumbers
+location ^~ / {
+  add_header 'Access-Control-Allow-Origin' '*';
+  add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+  add_header 'Access-Control-Allow-Credentials' 'true';
+  add_header 'Access-Control-Allow-Headers' 'Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Data-Type,X-Requested-With,X-Data-Type,X-Auth-Token';
+  if ( $request_method = 'OPTIONS' ) { 
+    return 200;
+  }
+  proxy_pass http://127.0.0.1:8080;  #这里的8080要以你实际端口为准
+  proxy_set_header Host $host;
+  proxy_set_header X-Real-IP $remote_addr;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header REMOTE-HOST $remote_addr;
+}
+```
+:::tip 安装完成
+以上全部完成后访问界面如下，随后请点击“安装程序”按钮，输入你上个步骤设置的系统管理密钥，即可完成安装。如果你未安装Typecho，将会弹出提示框询问你是否需要独立安装，这里可以不用安装，因为后续也用不到。
+:::
+<a target="_blank" rel="noopener noreferrer">
+<img  src="/img/install/pro-linux-05.jpg" width="800" height="480"  /> </a>
+自此，全自动安装完毕！
+
+
+## 第二种纯手动安装
+### 第一步，问群主要安装文件以及配置文件
+:::caution 注意
+在完成 [全新部署(可点击)](#全新部署) 准备后，将我给你的  <span className={"text-red-500"}>AikanProApi.jar、application.properties、AiKanPro.sh </span> 这三个文件，同时放进一个  <span className={"text-red-500"}>英文</span> 文件夹后（比如：/usr/local/aikanpro/  这是我的运行目录），上传到你的服务器，记清楚你自己的目录，然后用下面这个脚本，把实际的名字和目录完全修改为你的实际路径，脚本修改完毕后保存退出，
+:::
+:::tip 
+-  AiKanPro.sh                                   ： 核心API的手动启停脚本 （问群主要）
+- AikanProApi.jar                             ： 核心API（问群主要）
+- application.properties                  ：核心API的配置文件（问群主要）
+:::
+#### 其中 AiKanPro.sh
+```bash showLineNumbers
+#!/bin/bash
+# 定义变量
+# 要运行的jar包路径，加不加引号都行。 注意：等号两边 不能 有空格，否则会提示command找不到
+JAR_NAME="/usr/local/AikanProApi/AikanProApi.jar"
+# 日志路径，加不加引号都行。 注意：等号两边 不能 有空格，否则会提示command找不到
+LOG_PATh=/www/wwwlogs/AikanPro/AikanPro.log
+```
+*tips   : 脚本要以sh 结尾，类似于Windows的bat*
+
+### 第二步，启动程序
+#### 假如你给脚本起的名字为，AikanPro.sh,则执行运行下面命令即可启动项目
+
+```bash showLineNumbers
+sh AikanPro.sh start    #API的启动命令
+```
+
+#### 重启、和停止命令请看下面文档：[其他命令](#其他命令)
+:::tip 
+- 执行<span className={"text-red-500"}> sh AikanPro.sh start</span>  启动后打开浏览器访问
+```bash showLineNumbers
+http://ip:8080  # IP 是你服务器IP地址
+```
+- 成功后会返回如下界面
+
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-05.jpg" width="800" height="480"  /> </a>
+
+如启动后无法访问，请检查 **`端口是否冲突`** 或 **`防火墙/安全组是否开启`**，出现如下界面，那就是安装成功，
+:::
+### 第三步，用域名打开
+#### 接下来用Nginx做反向代理，用域名直接访问API，Ngxin 具体配置如下（伪静态）
+- 安装完成 AikanProApi 后，需要外网访问才可以使用
+- 请新创建一个纯静态网站（不需要ftp，不需要数据库，只要纯静态并且分配单独的域名，一般是二级域名），配置SSL证书（主要提升安全性和后续方便）
+- 将如下代码放入这个新建网站的伪静态配置中
+- 下方的代码实现了反向代理和跨域，同时8080请替换为你上个步骤设置的API端口，127.0.0.1这条请不要变更。
+
+```bash showLineNumbers
+location ^~ / {
+  add_header 'Access-Control-Allow-Origin' '*';
+  add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+  add_header 'Access-Control-Allow-Credentials' 'true';
+  add_header 'Access-Control-Allow-Headers' 'Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Data-Type,X-Requested-With,X-Data-Type,X-Auth-Token';
+  if ( $request_method = 'OPTIONS' ) { 
+    return 200;
+  }
+  proxy_pass http://127.0.0.1:8080;
+  proxy_set_header Host $host;
+  proxy_set_header X-Real-IP $remote_addr;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header REMOTE-HOST $remote_addr;
+}
+```
+#### 当你域名+IP均可访问此API   自此api安装完毕，总的来说蛮简单的
+
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-05.jpg" width="800" height="480"  /> </a>
+
+#### 因为文档默认运行端口是8080，你也可以编辑application.properties文件，修改默认端口、数据库和Redis的链接配置
+
+```bash showLineNumbers
+# 服务端口
+server.port=8080  #这里修改完毕后一定记得在nginx中也需要同步修改
+
+# mysql配置
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/数据库名?characterEncoding=UTF-8
+spring.datasource.username=数据库用户名
+spring.datasource.password=数据库密码
+# mysql数据表前缀，如果没改过就别动
+mybatis.configuration.variables.prefix=typecho                             
+```
+
+简单检查方式为在服务器执行 `curl http://127.0.0.1:8080`
+- 如返回 `curl: (7) Failed connect to 127.0.0.1:8080; Connection refused` 表示未启动成功。
+- 如返回 `<!DOCTYPE html> <html lang="zh-CN">……` 等字样表示启动成功，如启动成功但通过服务器 IP 无法访问，那一般就是防火墙/安全组未放行端口问题。
+
+
+
+#### 其他命令 
+
+#### 假如你给脚本起的名字为，AikanPro.sh  如修改了安装路径请自行更改命令所在路径。
+
+```bash showLineNumbers
+sh AikanPro.sh start    #API的启动命令
+sh AikanPro.sh restart  #API的重启命令，一般用最多是这个
+sh AikanPro.sh stop     #API的停止命令
+sh AikanPro.sh yunxing  #查看API状态命令
+```
+
+### 第四步， 域名可以访问后，我们进行操作配置
+:::tip 
+- 在配置 application.properties 文件中正确配置完毕数据库后，我们点击下方按钮进行数据库配置
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-06.jpg" width="800" height="480"  /> </a>
+- 正确填写如下信息，记住每个密码，后面我们都用的到
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-07.jpg" width="800" height="480"  /> </a>
+:::
+#### 致此安装结束
+
+## 帮我安装🔍
+[技术支持](/support/)

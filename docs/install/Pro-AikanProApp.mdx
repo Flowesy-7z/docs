@@ -1,0 +1,87 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# AikanProApp
+
+## 前言准备
+:::tip 安装环境
+- 准备一台Windows系统的终端(没有电脑的，也可以去网上租一台云电脑使用)
+
+- 安装HBuilderX打包应用，创建dcloud账号并在HBuilderX登录：[dcloud官网](https://dcloud.io/)
+- 解压群主给你的前端源码文件
+:::
+
+## 安装过程
+### 第一步:运行HBuilder并创建项目
+:::tip 
+- 创建一个新的uni-app项目，点击文件-新建-项目
+<img  src="/img/install/install-app-01.png" width="800" height="480"  />
+- 项目类型选择uni-app，填写好项目名称后点击创建
+
+<img  src="/img/install/install-app-02.png" width="800" height="480"  />
+
+- 创建成功后将前端源码文件粘贴到项目目录下
+<img  src="/img/install/install-app-03.png" width="800" height="480"  />
+<img  src="/img/install/install-app-04.png" width="800" height="480"  /> 
+- 提示替换或跳过文件我们选择替换目标中的文件即可
+<img  src="/img/install/install-app-05.png" width="800" height="480"  /> 
+
+:::
+
+### 第二步:填写相关接口配置信息文件
+:::tip 
+- 打开项目目录下的utils/api.js文件，根据提示填写AikanProApi域名、AikanPro后台域名、APPkey信息等等
+- 填写注意事项：
+1.填写域名时候必须加http(s)://前缀，以“/”结尾。
+2.API站点为第一步搭建的，Star后台为第二步搭建的，H5站点搭建教程在下方
+3.APPkey需要在AikanProApi后台→内容配置→应用管理→添加应用，然后会自动生成APPkey
+4.填写完毕后记得保存
+<img  src="/img/install/install-app-06.png" width="800" height="480"  />
+:::
+
+:::tip 
+### 第三步:进行应用打包基础配置并打包
+- 双击项目目录下的manifest.json文件，弹出应用基础配置信息，进行一些应用的基本信息配置(若初次打包需要重新获取uni-app应用标识)
+<img  src="/img/install/install-app-07.png" width="800" height="480"  />
+
+- APP模块配置勾选：扫码，相册，Push，Share，VideoPlayer
+- 后台运行能力：audio（自选）
+<img  src="/img/install/install-app-08.png" width="800" height="480"  />
+- 第三方登录
+这里有个注意点就是，用的就开，用不上的别开，开了打包肯定报错。QQ微博微信这三个的，都去各自的开发者平台申请appid等信息，每个APP都是不一样的，具体的各自的开发者平台都有教程。
+<img  src="/img/install/install-app-09.png" width="800" height="480"  />
+:::
+:::tip 
+### 第四步:APP、H5、小程序发行
+- APP发行与打包：
+单击发行-原生APP云打包，进行一些基本配置后点击打包即可。
+<img  src="/img/install/install-app-10.png" width="800" height="480"  />
+<img  src="/img/install/install-app-11.png" width="800" height="480"  />
+
+
+更详细的打包教程可以参考[dcloud打包教程](https://uniapp.dcloud.net.cn/tutorial/app-base.html)
+<img  src="/img/install/install-app-12.png" width="800" height="480"  />
+
+- H5发行与打包：
+- 双击项目目录下的manifest.json文件，找到web配置
+- 把运行的基础路径改为：/h5/
+<img  src="/img/install/install-app-13.png" width="800" height="480"  />
+- 其他的根据自己需求来配置，然后点击发行-网站
+<img  src="/img/install/install-app-14.png" width="800" height="480"  />
+- 直接点击发行
+- 待h5源码生成后，打包h5源码
+<img  src="/img/install/install-app-15.png" width="800" height="480"  />
+
+- 准备一个（子）域名作为h5站点，创建一个网站，然后建议配置ssl
+<img  src="/img/install/install-app-16.png" width="800" height="480"  />
+- 进网站目录新建一个名为“h5”的文件夹并进入，上传刚才生成的源码
+<img  src="/img/install/install-app-17.png" width="800" height="480"  />
+<img  src="/img/install/install-app-18.png" width="800" height="480"  />
+- 最后，进入第二部搭建的AikanPro后台，系统设置→全局设置→打开H5调试
+- 然后即可访问H5站点：H5域名+/h5/   
+- H5站点也可当作手机版网页端
+:::
+#### 致此安装结束
+
+## 帮我安装🔍
+[技术支持](/support/)

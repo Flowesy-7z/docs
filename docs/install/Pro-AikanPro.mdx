@@ -1,0 +1,84 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# AikanPro
+
+## 前言
+- <span className={"text-red-500"}>  最低配置：</span>1核CPU 700M运行内存   --    <span className={"text-red-500"}>推荐配置：</span>2核CPU 2G运行内存
+
+- 此教程仅为<span className={"text-red-500"}>  CentOS 7.9 </span>系统做演示，其他系统命令大同小异，<span className={"text-red-500"}>请仔细区别安装</span>
+- 此教程只针对手动安装AikanPro的正式用户，AikanFree用户请看开源版安装，以免安装后无法正常使用！
+- 手动安装需要手动安装Java环境，建议安装<span className={"text-red-500"}> JDK1.8及以上版本</span> 安装方法请自行百度.官网：👉 [点击进入](https://www.oracle.com/java/technologies/downloads/#java8)
+
+<span className={"text-red-500"}>提示：部署  AikanPro 版之前，请先停止之前的版本，这个很重要，不然可能会造成数据文件损坏.</span>
+
+## 全新部署
+
+:::tip 安装环境
+
+由于软件运行环境原因，系统必须安装以下环境，请提前部署，以免在正式安装造成安装问题.
+
+如果你不知道你的环境到底是 `64 位` 还是 `32 位`，一般来说就是 `64 位`。
+
+需要用到的环境：
+- PHP： 7.2（需要安装插件SG15和Redis）[SG15 如何安装](/question/sg15/)
+- Redis：（5.0-7.0）推荐6.0，Redis是现在最受欢迎的NoSQL数据库之一。
+- Mysql：（5.5-5.7）推荐5.6
+- Nginx：稳定版即可，没有版本要求
+:::
+## 配置过程
+购买后请联系负责人（不出意外应该是联系我本人），给你部署程序
+不出意外应该会给/下载 一下几个文件，缺一不可！！！
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-01.png"  width="550" height="350" alt="AikanPro"/> </a>
+
+:::tip 建议安装顺序，自上而下：
+- AikanProApi.jar   
+- AikanPro（php后台）
+- App 源码
+:::
+**tips: 如果你不知道你的环境到底是 `amd64` 还是 `arm`，一般来说就是 `amd64`，一般 `arm` 架构的机器，购买时会特殊标注的。**
+
+
+# AikanPro（后台）安装过程
+
+:::tip
+- 新建一个网站，网站解析的域名必须是你提供给我的授权域名
+```bash showLineNumbers
+server  {
+   listen 80;
+   server_name docs.qxzhi.com;
+   index  index.html ;
+   location  / {
+  add_header 'Access-Control-Allow-Origin' '*';
+  add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+  add_header 'Access-Control-Allow-Credentials' 'true';
+  add_header 'Access-Control-Allow-Headers' 'Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Data-Type,X-Requested-With,X-Data-Type,X-Auth-Token';
+  if ( $request_method = 'OPTIONS' ) { 
+    return 200;
+     }
+  }
+access_log /www/wwwlogs/docs-qxzhi/docs.qxzhi-access.log;
+error_log /www/wwwlogs/docs-qxzhi/docs.qxzhi-error.log;
+      }
+```
+- 把我给你的源码正常搭建网站一样放到运行目录
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-02.jpg" width="1000" height="400"  /> </a>
+- 在源码目录里面找到数据库配置文件，进行数据库配置修改
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-03.jpg" width="1000" height="550"  /> </a>
+- 打开域名完成后台
+<a target="_blank" rel="noopener noreferrer">
+<img width="100" src="/img/install/pro-linux-04.jpg" width="800" height="500"  /> </a>
+
+```bash showLineNumbers
+默认账号密码为上面安装AikanProApi时，点首次安装时创建的账号和密码，一般来说都是
+admin   
+123456
+```
+:::
+#### 致此安装结束
+
+## 帮我安装🔍
+[技术支持](/support/)
