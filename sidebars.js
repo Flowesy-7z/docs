@@ -61,6 +61,11 @@ const sidebars = {
                             type: 'doc',
                             label: '3、打包AikanFreeApp'
                         },
+                        {
+                            id: 'install/Pro-AikanProImg',
+                            type: 'doc',
+                            label: '4、设置图片上传'
+                        },
                     ]
                 },
                 {
@@ -89,6 +94,11 @@ const sidebars = {
                             id: 'install/Pro-AikanProApp',
                             type: 'doc',
                             label: '3、打包AikanProApp'
+                        },
+                        {
+                            id: 'install/Pro-AikanProImg',
+                            type: 'doc',
+                            label: '4、设置图片上传'
                         },
                     ]
                 }, {
@@ -249,27 +259,7 @@ const sidebars = {
                     label: '七牛云'
                 },    
 
-                {
-                    id: 'example/s3',
-                    type: 'doc',
-                    label: 'S3 或其他兼容 S3 的服务'
-                },
-                {
-                    id: 'example/onedrive',
-                    type: 'doc',
-                    label: 'OneDrive'
-                },
-                {
-                    id: 'example/onedrive-china',
-                    type: 'doc',
-                    label: 'OneDrive (世纪互联)'
-                },
- 
-                {
-                    id: 'example/sharepoint-china',
-                    type: 'doc',
-                    label: 'SharePoint (世纪互联)'
-                },
+             
                 {
                     id: 'example/ftp',
                     type: 'doc',
