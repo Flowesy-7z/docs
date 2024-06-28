@@ -9,7 +9,7 @@
 
 
 <a target="_blank" rel="noopener noreferrer">
-<img  src="/img/example/tencent-01.png"  alt="AikanPro"/> </a>
+<img  src="https://tk.illlt.com:759/aikanpro/docs//img/example/tencent-01.png"  alt="AikanPro"/> </a>
 <a target="_blank" rel="noopener noreferrer">
-<img  src="/img/example/tencent-02.png"    alt="AikanPro"/> </a>
+<img  src="https://tk.illlt.com:759/aikanpro/docs//img/example/tencent-02.png"    alt="AikanPro"/> </a>
 
