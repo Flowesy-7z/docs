@@ -8,11 +8,11 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
     title: '我爱看',
     tagline: 'aikan 在线云盘文档',
-    url: 'http://docs.qxzhi.com',
+    url: 'http://docs.aikan.pro',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'https://tk.illlt.com:759/aikanpro/docs/img/favicon.ico',
     organizationName: 'Flowesy-7z', // Usually your GitHub org/user name.
     projectName: 'AikanPro', // Usually your repo name.
     i18n: {
@@ -90,7 +90,7 @@ const config = {
                 title: 'aikan',
                 logo: {
                     alt: '我爱看',
-                    src: 'img/aikan.png',
+                    src: 'https://tk.illlt.com:759/aikanpro/docs/img/aikan.png',
                 },
                 items: [
                     {
@@ -147,7 +147,7 @@ const config = {
                            
                             {
                                 label: 'Github (文档)',
-                                to: 'https://docs.qxzhi.com',
+                                to: 'https://docs.aikan.pro',
                             }
                         ],
                     },
