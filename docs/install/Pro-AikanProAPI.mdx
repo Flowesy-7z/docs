@@ -1,10 +1,18 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 # AikanProAPI
 ## AikanProApi安装过程目前分为两种
 #### 第一种是全自动安装：[点我跳转第一种教程](#第一种全自动安装)
 #### 第二种是纯手动安装（推荐）[点我跳转第二种教程](#第二种纯手动安装)
+
+
+
+<center>
+## 在线视频安装教程
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112721181803822&bvid=BV1x5hzeRE33&cid=500001603537706&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</center>
 
 ## 前言
 - <span className={"text-red-500"}>  最低配置：</span>1核CPU 700M运行内存   --    <span className={"text-red-500"}>推荐配置：</span>2核CPU 2G运行内存
@@ -58,11 +66,12 @@ cd /opt
 #### 执行下方AikanProApi安装脚本，根据提示完成安装。
 
 ```bash showLineNumbers
-wget https://api.aikan.pro/api/aikanproapi.sh && sh aikanproapi.sh install
+wget https://aikan.pro/down/sh/aiKnaProApi.sh && sh aiKnaProApi.sh install
 ```
 <span className={"text-red-500"}>如果上述脚本执行出现问题，请拿报错信息在售后群反馈！</span>
 
 ### 第二步：按照脚本提示输入信息
+
 :::tip 命令和填写范例如下：
 - 请输入运行端口（输入8080或者其它端口，千万别80或者443）：这里可以不填，或者填写不合其它应用冲突的端口
 - 请输入数据库名：如果安装了Typecho，就填写和Typecho一致的数据库信息
@@ -125,10 +134,11 @@ LOG_PATh=/www/wwwlogs/AikanPro/AikanPro.log
 #### 假如你给脚本起的名字为，AikanPro.sh,则执行运行下面命令即可启动项目
 
 ```bash showLineNumbers
-sh AikanPro.sh start    #API的启动命令
+sh aiKnaProApi.sh start    #API的启动命令
 ```
 
 #### 重启、和停止命令请看下面文档：[其他命令](#其他命令)
+
 :::tip 
 - 执行<span className={"text-red-500"}> sh AikanPro.sh start</span>  启动后打开浏览器访问
 ```bash showLineNumbers
@@ -195,10 +205,10 @@ mybatis.configuration.variables.prefix=typecho
 #### 假如你给脚本起的名字为，AikanPro.sh  如修改了安装路径请自行更改命令所在路径。
 
 ```bash showLineNumbers
-sh AikanPro.sh start    #API的启动命令
-sh AikanPro.sh restart  #API的重启命令，一般用最多是这个
-sh AikanPro.sh stop     #API的停止命令
-sh AikanPro.sh yunxing  #查看API状态命令
+sh aiKnaProApi.sh start    #API的启动命令
+sh aiKnaProApi.sh restart  #API的重启命令，一般用最多是这个
+sh aiKnaProApi.sh stop     #API的停止命令
+sh aiKnaProApi.sh yunxing  #查看API状态命令
 ```
 
 ### 第四步， 域名可以访问后，我们进行操作配置
@@ -210,6 +220,7 @@ sh AikanPro.sh yunxing  #查看API状态命令
 <a target="_blank" rel="noopener noreferrer">
 <img width="100" src="https://tk.illlt.com:759/aikanpro/docs//img/install/pro-linux-07.jpg" width="800" height="480"  /> </a>
 :::
+
 #### 致此安装结束
 
 ## 帮我安装🔍
