@@ -224,7 +224,7 @@ const sidebars = {
                 {
                     id: 'question/sg15',
                     type: 'doc',
-                    label: 'SG15的安装方法'
+                    label: '如何升级SG15'
                 }
             ]
         },
