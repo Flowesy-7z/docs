@@ -34,7 +34,7 @@ const config = {
                     routeBasePath: "/",
                     showLastUpdateTime: true,
                     showLastUpdateAuthor: true,
-                    editUrl: 'https://qxzhi.com',
+                    editUrl: 'https://github.com/Flowesy-7z/docs',
                 },
                 blog: false,
                 theme: {
@@ -87,7 +87,7 @@ const config = {
                 respectPrefersColorScheme: true,
             },
             navbar: {
-                title: 'aikan',
+                title: 'AikanPro',
                 logo: {
                     alt: '我爱看',
                     src: 'https://tk.illlt.com:759/aikanpro/docs/img/aikan.png',
@@ -121,14 +121,14 @@ const config = {
                     },
                     {
                         "label": "我要提 BUG",
-                        "href": "https://qxzhi.com"
+                        "href": "http://yl.qxzhi.com/liuli"
                     },
                     {
                         "label": "技术支持",
                         "href": "/support/"
                     },
                     {
-                        href: 'https://qxzhi.com',
+                        href: 'https://github.com/Flowesy-7z/docs',
                         position: 'right',
                         className: 'header-github-link'
                     }
@@ -142,12 +142,12 @@ const config = {
                         items: [
                             {
                                 label: '官网',
-                                 to: 'https://qxzhi.com',
+                                 to: 'https://cdn.li.qxzhi.com',
                             },
                            
                             {
                                 label: 'Github (文档)',
-                                to: 'https://docs.aikan.pro',
+                                to: 'https://github.com/Flowesy-7z/docs',
                             }
                         ],
                     },
