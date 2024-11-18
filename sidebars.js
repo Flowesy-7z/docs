@@ -32,6 +32,10 @@ const sidebars = {
         {
             type: 'category',
             label: '快速安装（必看）',
+ link: {
+                description: "如果你不知道你适合安装开源版还是Pro版，建议联系QQ：2926233597 咨询后安装",
+                type: 'generated-index',
+            },
             // collapsed: false,
             items: [
                 {
@@ -101,10 +105,6 @@ const sidebars = {
                             label: '4、设置图片上传'
                         },
                     ]
-                }, {
-                    type: 'doc',
-                    label: '帮我安装',
-                    id: 'support/support'
                 }
             ],
         },
@@ -112,6 +112,10 @@ const sidebars = {
         {
             type: 'category',
             label: '程序介绍',
+link: {
+                description: "如果你不知道你适合安装开源版还是Pro版，建议联系QQ：2926233597  咨询后安装",
+                type: 'generated-index',
+            },
             items: [
                
                  {
@@ -138,6 +142,10 @@ const sidebars = {
         {
             type: 'category',
             label: '配置文件（必看）',
+ link: {
+                description: "如果你不知道你适合安装开源版还是Pro版，建议联系QQ：2926233597 咨询后安装",
+                type: 'generated-index',
+            },
             items: [
                
                 {
@@ -160,6 +168,10 @@ const sidebars = {
         {
             type: 'category',
             label: '高级功能',
+ link: {
+                description: "如果你不知道你适合安装开源版还是Pro版，建议联系QQ：2926233597 咨询后安装",
+                type: 'generated-index',
+            },
             items: [
                
                 {
@@ -187,6 +199,10 @@ const sidebars = {
         {
             type: 'category',
             label: '常见问题',
+ link: {
+                description: "如果你不知道你适合安装开源版还是Pro版，建议联系QQ：2926233597 咨询后安装",
+                type: 'generated-index',
+            },
             items: [
                 {
                     id: 'question/run-multiple-instance',
@@ -312,15 +328,32 @@ const sidebars = {
                 }
             ]
         },
-        {
+ {
+            type: 'category',
+            label: '技术支持',
+            link: {
+                type: 'generated-index',
+                title: '技术支持',
+                description: '点击下方查看技术支持的具体事项',
+                slug: '/support'
+            },
+            items: [
+                {
+                    id: 'support/support-pf',
+                    type: 'doc',
+                    label: '服务资费'
+                },
+                {
+                    id: 'support/support-term',
+                    type: 'doc',
+                    label: '先决条件'
+                }
+            ]
+        },
+     {
             type: 'doc',
             label: '服务器推荐',
             id: 'ad/ad'
-        },
-        {
-            type: 'doc',
-            label: '技术支持',
-            id: 'support/support'
         }
     ],
 
