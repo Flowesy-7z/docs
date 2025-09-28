@@ -1,0 +1,24 @@
+{
+  "id": "advanced/img_public",
+  "title": "公共图标设置",
+  "description": "AIkanPro 拥有公共图标完全由AikanPro用户提供，这里免费给AikanPro正式版用户免费使用",
+  "source": "@site/docs/advanced/img_public.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/img_public",
+  "permalink": "/advanced/img_public",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/img_public.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "高级功能",
+    "permalink": "/category/高级功能"
+  },
+  "next": {
+    "title": "API命令表",
+    "permalink": "/advanced/api"
+  }
+}

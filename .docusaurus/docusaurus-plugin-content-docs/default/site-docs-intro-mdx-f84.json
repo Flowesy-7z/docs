@@ -1,0 +1,30 @@
+{
+  "id": "intro",
+  "title": "",
+  "description": "基于 StarPro 二开的程序，为社区/博客/自媒体/知识付费/论坛提供解决方案的一整套项目体系。它包括接口端，后台控制端，APP客户端，和响应式网页端。通过它，您可以快捷的构筑多功能，高性能，高安全性的个人互联网社区。",
+  "source": "@site/docs/intro.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/intro.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720402069000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "sidebar_label": "项目概述",
+    "title": "",
+    "sidebar_position": 1,
+    "hide_title": true,
+    "slug": "/"
+  },
+  "sidebar": "docsSidebar",
+  "next": {
+    "title": "许可协议 / 免责声明",
+    "permalink": "/UserGS"
+  }
+}

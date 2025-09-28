@@ -1,0 +1,26 @@
+{
+  "id": "install/Pro-AikanProImg",
+  "title": "AikanProImg",
+  "description": "前言准备",
+  "source": "@site/docs/install/Pro-AikanProImg.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Pro-AikanProImg",
+  "permalink": "/install/Pro-AikanProImg",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Pro-AikanProImg.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "3、打包AikanFreeApp",
+    "permalink": "/install/Free-AikanFreeApp"
+  },
+  "next": {
+    "title": "Pro 版（AikanPro）",
+    "permalink": "/install-pro"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "config/config-port",
+  "title": "启动端口",
+  "description": "爱看Pro 默认端口为 8080，如果你的服务器已经占用了 8080 端口，可以修改端口号。",
+  "source": "@site/docs/config/config-port.mdx",
+  "sourceDirName": "config",
+  "slug": "/config/config-port",
+  "permalink": "/config/config-port",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/config/config-port.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "配置文件（必看）",
+    "permalink": "/category/配置文件必看"
+  },
+  "next": {
+    "title": "数据库配置",
+    "permalink": "/config/config-db"
+  }
+}

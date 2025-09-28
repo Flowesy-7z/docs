@@ -1,0 +1,26 @@
+{
+  "id": "question/upload-fail-baota",
+  "title": "上传失败怎么办？",
+  "description": "上传超过 50M 的文件失败",
+  "source": "@site/docs/question/upload-fail-baota.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/upload-fail-baota",
+  "permalink": "/question/upload-fail-baota",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/upload-fail-baota.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "如何用域名访问？",
+    "permalink": "/question/bind-domain"
+  },
+  "next": {
+    "title": "如何查看/下载日志？",
+    "permalink": "/question/download-log"
+  }
+}

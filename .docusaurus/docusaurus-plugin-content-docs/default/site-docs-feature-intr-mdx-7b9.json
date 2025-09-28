@@ -1,0 +1,26 @@
+{
+  "id": "feature/intr",
+  "title": "实图介绍",
+  "description": "| 演示快照，点击即看效果 | 网站 点击即可               |",
+  "source": "@site/docs/feature/intr.mdx",
+  "sourceDirName": "feature",
+  "slug": "/feature/intr",
+  "permalink": "/feature/intr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/feature/intr.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "产品特色",
+    "permalink": "/feature/product"
+  },
+  "next": {
+    "title": "更新计划",
+    "permalink": "/feature/text"
+  }
+}

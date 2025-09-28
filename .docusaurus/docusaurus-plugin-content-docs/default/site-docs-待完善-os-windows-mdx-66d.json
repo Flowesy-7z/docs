@@ -1,0 +1,17 @@
+{
+  "id": "待完善/os-windows",
+  "title": "Windows",
+  "description": "安装 JDK",
+  "source": "@site/docs/待完善/os-windows.mdx",
+  "sourceDirName": "待完善",
+  "slug": "/待完善/os-windows",
+  "permalink": "/待完善/os-windows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/待完善/os-windows.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719389652000,
+  "frontMatter": {}
+}

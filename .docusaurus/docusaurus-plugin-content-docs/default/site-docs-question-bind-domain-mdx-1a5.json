@@ -1,0 +1,26 @@
+{
+  "id": "question/bind-domain",
+  "title": "如何用域名访问？",
+  "description": "参考：点我前往",
+  "source": "@site/docs/question/bind-domain.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/bind-domain",
+  "permalink": "/question/bind-domain",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/bind-domain.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719472972000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "启动失败/无法访问怎么办？",
+    "permalink": "/question/start-fail"
+  },
+  "next": {
+    "title": "媒体上传失败怎么办？",
+    "permalink": "/question/upload-fail-baota"
+  }
+}

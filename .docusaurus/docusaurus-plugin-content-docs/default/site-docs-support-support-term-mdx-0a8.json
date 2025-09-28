@@ -1,0 +1,24 @@
+{
+  "id": "support/support-term",
+  "title": "部署一条龙指南",
+  "description": "全程由我本机一条龙安装的好处：",
+  "source": "@site/docs/support/support-term.mdx",
+  "sourceDirName": "support",
+  "slug": "/support/support-term",
+  "permalink": "/support/support-term",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/support/support-term.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "服务资费",
+    "permalink": "/support/support-pf"
+  },
+  "next": {
+    "title": "服务器推荐",
+    "permalink": "/ad/"
+  }
+}

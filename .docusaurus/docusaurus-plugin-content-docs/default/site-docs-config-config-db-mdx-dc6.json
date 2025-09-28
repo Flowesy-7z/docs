@@ -1,0 +1,26 @@
+{
+  "id": "config/config-db",
+  "title": "数据库配置",
+  "description": "爱看Pro 默认使用 MySQL 数据库可通过配置文件修改。",
+  "source": "@site/docs/config/config-db.mdx",
+  "sourceDirName": "config",
+  "slug": "/config/config-db",
+  "permalink": "/config/config-db",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/config/config-db.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "启动端口",
+    "permalink": "/config/config-port"
+  },
+  "next": {
+    "title": "抢救模式",
+    "permalink": "/config/config-debug"
+  }
+}

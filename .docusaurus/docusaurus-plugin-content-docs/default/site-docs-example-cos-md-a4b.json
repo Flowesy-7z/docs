@@ -1,0 +1,26 @@
+{
+  "id": "example/cos",
+  "title": "腾讯云 COS",
+  "description": "注意：如果你使用了自定义域名，且在腾讯云开启了回源鉴权，那么需要在 AikanPro 中要使用自定义域名，否则会导致无法正常使用。（回源鉴权表示无论是是否是私有空间，通过 cdn 域名下载文件都不需要增加任何签名，也可以理解为变成了公共下载，这时候带签名下载反而会报错。）",
+  "source": "@site/docs/example/cos.md",
+  "sourceDirName": "example",
+  "slug": "/example/cos",
+  "permalink": "/example/cos",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/cos.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "阿里云 OSS",
+    "permalink": "/example/oss"
+  },
+  "next": {
+    "title": "华为云 OBS",
+    "permalink": "/example/obs"
+  }
+}

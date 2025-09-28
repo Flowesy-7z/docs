@@ -1,0 +1,26 @@
+{
+  "id": "advanced/api",
+  "title": "API 命令表",
+  "description": "AIkanPro 拥有两套命令表，大家可以根据自己实际情况来用，第二种比较方便简单",
+  "source": "@site/docs/advanced/api.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/api",
+  "permalink": "/advanced/api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/api.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "公共图标设置",
+    "permalink": "/advanced/img_public"
+  },
+  "next": {
+    "title": "图标跳转配置教程",
+    "permalink": "/advanced/icon"
+  }
+}

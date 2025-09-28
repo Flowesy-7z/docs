@@ -1,0 +1,17 @@
+{
+  "id": "advanced/support-term",
+  "title": "部署指南",
+  "description": "本指南将介绍两种操作方式：",
+  "source": "@site/docs/advanced/support-term.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/support-term",
+  "permalink": "/advanced/support-term",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/support-term.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {}
+}

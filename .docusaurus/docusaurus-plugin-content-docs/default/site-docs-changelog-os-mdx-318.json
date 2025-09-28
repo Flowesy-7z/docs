@@ -1,0 +1,26 @@
+{
+  "id": "changelog/os",
+  "title": "开源社区版更新日志",
+  "description": "0.0.0",
+  "source": "@site/docs/changelog/os.mdx",
+  "sourceDirName": "changelog",
+  "slug": "/changelog/os",
+  "permalink": "/changelog/os",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/changelog/os.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718948850000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "更新日志",
+    "permalink": "/changelog"
+  },
+  "next": {
+    "title": "Pro 版",
+    "permalink": "/changelog/pro"
+  }
+}

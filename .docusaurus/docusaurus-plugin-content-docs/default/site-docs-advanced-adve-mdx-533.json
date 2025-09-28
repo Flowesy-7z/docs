@@ -1,0 +1,26 @@
+{
+  "id": "advanced/adve",
+  "title": "激励广告",
+  "description": "UniAD广告回调",
+  "source": "@site/docs/advanced/adve.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/adve",
+  "permalink": "/advanced/adve",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/adve.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719472972000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "图标跳转配置教程",
+    "permalink": "/advanced/icon"
+  },
+  "next": {
+    "title": "消息推送",
+    "permalink": "/advanced/push"
+  }
+}

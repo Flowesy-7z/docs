@@ -173,7 +173,12 @@ link: {
                 type: 'generated-index',
             },
             items: [
-               
+                {
+                    id: 'advanced/img_public',
+                    type: 'doc',
+                    label: '公共图标设置'
+                },
+
                 {
                     id: 'advanced/api',
                     type: 'doc',

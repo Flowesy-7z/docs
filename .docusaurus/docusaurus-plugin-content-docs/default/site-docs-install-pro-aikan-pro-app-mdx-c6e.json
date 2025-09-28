@@ -1,0 +1,26 @@
+{
+  "id": "install/Pro-AikanProApp",
+  "title": "AikanProApp",
+  "description": "在线视频安装教程",
+  "source": "@site/docs/install/Pro-AikanProApp.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Pro-AikanProApp",
+  "permalink": "/install/Pro-AikanProApp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Pro-AikanProApp.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "2、安装AikanPro（后台）",
+    "permalink": "/install/Pro-AikanPro"
+  },
+  "next": {
+    "title": "4、设置图片上传",
+    "permalink": "/install/Pro-AikanProImg"
+  }
+}

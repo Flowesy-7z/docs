@@ -1,0 +1,26 @@
+{
+  "id": "config/config-debug",
+  "title": "抢救模式",
+  "description": "如您不甚忘记所有管理员密码后，可修改数据库文件开启 抢救 模式，修改后可在复制md5加密的密码进行破译查看，推荐查看md5网站，请自行百度.",
+  "source": "@site/docs/config/config-debug.mdx",
+  "sourceDirName": "config",
+  "slug": "/config/config-debug",
+  "permalink": "/config/config-debug",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/config/config-debug.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "数据库配置",
+    "permalink": "/config/config-db"
+  },
+  "next": {
+    "title": "高级功能",
+    "permalink": "/category/高级功能"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "question/sg15",
+  "title": "SG15 加密组件安装",
+  "description": "宝塔面板 PHP7.2（我们目前使用的版本） 组件 SG15加密 暂末更新 请手动安装",
+  "source": "@site/docs/question/sg15.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/sg15",
+  "permalink": "/question/sg15",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/sg15.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "如何查看/下载日志？",
+    "permalink": "/question/download-log"
+  },
+  "next": {
+    "title": "图片上传配置",
+    "permalink": "/category/图片上传配置"
+  }
+}

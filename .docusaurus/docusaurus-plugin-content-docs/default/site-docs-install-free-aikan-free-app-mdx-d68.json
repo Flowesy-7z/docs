@@ -1,0 +1,26 @@
+{
+  "id": "install/Free-AikanFreeApp",
+  "title": "Linux",
+  "description": "等待开发!",
+  "source": "@site/docs/install/Free-AikanFreeApp.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Free-AikanFreeApp",
+  "permalink": "/install/Free-AikanFreeApp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Free-AikanFreeApp.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719389652000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "2、安装AikanFree（后台）",
+    "permalink": "/install/Free-AikanFree"
+  },
+  "next": {
+    "title": "4、设置图片上传",
+    "permalink": "/install/Pro-AikanProImg"
+  }
+}

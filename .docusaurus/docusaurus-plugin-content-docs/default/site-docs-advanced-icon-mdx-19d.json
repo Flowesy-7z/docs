@@ -1,0 +1,26 @@
+{
+  "id": "advanced/icon",
+  "title": "**图标转跳配置教程**",
+  "description": "常用链接",
+  "source": "@site/docs/advanced/icon.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/icon",
+  "permalink": "/advanced/icon",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/icon.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API命令表",
+    "permalink": "/advanced/api"
+  },
+  "next": {
+    "title": "激励广告",
+    "permalink": "/advanced/adve"
+  }
+}

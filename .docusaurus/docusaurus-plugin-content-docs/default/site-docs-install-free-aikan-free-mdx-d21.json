@@ -1,0 +1,26 @@
+{
+  "id": "install/Free-AikanFree",
+  "title": "Linux",
+  "description": "等待开发!",
+  "source": "@site/docs/install/Free-AikanFree.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Free-AikanFree",
+  "permalink": "/install/Free-AikanFree",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Free-AikanFree.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719389652000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "1、安装AikanFreeAPI",
+    "permalink": "/install/Free-AikanFreeApi"
+  },
+  "next": {
+    "title": "3、打包AikanFreeApp",
+    "permalink": "/install/Free-AikanFreeApp"
+  }
+}

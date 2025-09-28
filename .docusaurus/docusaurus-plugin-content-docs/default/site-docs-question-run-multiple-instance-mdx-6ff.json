@@ -1,0 +1,26 @@
+{
+  "id": "question/run-multiple-instance",
+  "title": "如何运行多个 AikanPro 实例",
+  "description": "请结合文档中这两个方法：",
+  "source": "@site/docs/question/run-multiple-instance.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/run-multiple-instance",
+  "permalink": "/question/run-multiple-instance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/run-multiple-instance.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718856593000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "常见问题",
+    "permalink": "/category/常见问题"
+  },
+  "next": {
+    "title": "忘记管理员密码怎么办？",
+    "permalink": "/question/reset-password"
+  }
+}

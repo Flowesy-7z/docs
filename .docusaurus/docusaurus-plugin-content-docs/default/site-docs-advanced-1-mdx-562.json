@@ -1,0 +1,15 @@
+{
+  "id": "advanced/1",
+  "title": "公共图标设置",
+  "description": "AIkanPro 拥有公共图标完全由AikanPro用户提供，这里免费给AikanPro正式版用户免费使用",
+  "source": "@site/docs/advanced/1.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/1",
+  "permalink": "/advanced/1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/1.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

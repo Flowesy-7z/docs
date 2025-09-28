@@ -1,0 +1,22 @@
+{
+  "id": "ad/ad",
+  "title": "服务器推荐 ✨",
+  "description": "通过以下链接注册新用户后，可以免费帮忙部署",
+  "source": "@site/docs/ad/ad.mdx",
+  "sourceDirName": "ad",
+  "slug": "/ad/",
+  "permalink": "/ad/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/ad/ad.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718948850000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "先决条件",
+    "permalink": "/support/support-term"
+  }
+}

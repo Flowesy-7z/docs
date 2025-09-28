@@ -1,0 +1,26 @@
+{
+  "id": "changelog/pro",
+  "title": "Pro版更新日志",
+  "description": "购买Pro版可以上 查看功能介绍并购买.",
+  "source": "@site/docs/changelog/pro.mdx",
+  "sourceDirName": "changelog",
+  "slug": "/changelog/pro",
+  "permalink": "/changelog/pro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/changelog/pro.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "开源版",
+    "permalink": "/changelog/os"
+  },
+  "next": {
+    "title": "技术支持",
+    "permalink": "/support"
+  }
+}

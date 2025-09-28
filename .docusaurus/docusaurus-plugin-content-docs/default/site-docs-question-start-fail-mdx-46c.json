@@ -1,0 +1,26 @@
+{
+  "id": "question/start-fail",
+  "title": "启动失败/无法访问怎么办？",
+  "description": "如启动后浏览器访问 http8080 无法访问，一般有以下几种原因：请检查 端口是否冲突 或 防火墙/安全组是否开启。",
+  "source": "@site/docs/question/start-fail.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/start-fail",
+  "permalink": "/question/start-fail",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/start-fail.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719472972000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "忘记管理员密码怎么办？",
+    "permalink": "/question/reset-password"
+  },
+  "next": {
+    "title": "如何用域名访问？",
+    "permalink": "/question/bind-domain"
+  }
+}

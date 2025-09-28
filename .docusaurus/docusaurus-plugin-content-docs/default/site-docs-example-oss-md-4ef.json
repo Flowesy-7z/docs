@@ -1,0 +1,26 @@
+{
+  "id": "example/oss",
+  "title": "阿里云 OSS",
+  "description": "注意：目前使用该对象存储",
+  "source": "@site/docs/example/oss.md",
+  "sourceDirName": "example",
+  "slug": "/example/oss",
+  "permalink": "/example/oss",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/oss.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "图片上传配置",
+    "permalink": "/category/图片上传配置"
+  },
+  "next": {
+    "title": "腾讯云 COS",
+    "permalink": "/example/cos"
+  }
+}

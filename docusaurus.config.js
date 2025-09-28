@@ -12,7 +12,7 @@ const config = {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'https://tk.illlt.com:759/aikanpro/docs/img/favicon.ico',
+    favicon: './img/favicon.ico',
     organizationName: 'Flowesy-7z', // Usually your GitHub org/user name.
     projectName: 'AikanPro', // Usually your repo name.
     i18n: {
@@ -90,7 +90,7 @@ const config = {
                 title: 'AikanPro',
                 logo: {
                     alt: '我爱看',
-                    src: 'https://tk.illlt.com:759/aikanpro/docs/img/aikan.png',
+                    src: './img/aikan.png',
                 },
                 items: [
                     {
@@ -157,6 +157,10 @@ const config = {
                             {
                                 label: 'QQ 群',
                                 href: 'http://yl.qxzhi.com/liuli',
+                            },
+{
+                                label: '联系作者',
+                                href: 'http://yl.qxzhi.com/2926233597',
                             },
                            
                         ],

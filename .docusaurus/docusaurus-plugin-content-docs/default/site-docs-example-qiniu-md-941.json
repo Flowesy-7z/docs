@@ -1,0 +1,26 @@
+{
+  "id": "example/qiniu",
+  "title": "七牛云",
+  "description": "帮我安装🔍",
+  "source": "@site/docs/example/qiniu.md",
+  "sourceDirName": "example",
+  "slug": "/example/qiniu",
+  "permalink": "/example/qiniu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/qiniu.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "华为云 OBS",
+    "permalink": "/example/obs"
+  },
+  "next": {
+    "title": "FTP",
+    "permalink": "/example/ftp"
+  }
+}

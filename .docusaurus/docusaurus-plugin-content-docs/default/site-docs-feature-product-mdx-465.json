@@ -1,0 +1,26 @@
+{
+  "id": "feature/product",
+  "title": "实用功能",
+  "description": "| 演示快照，点击即看效果 | 网站 点击即可               |",
+  "source": "@site/docs/feature/product.mdx",
+  "sourceDirName": "feature",
+  "slug": "/feature/product",
+  "permalink": "/feature/product",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/feature/product.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "程序介绍",
+    "permalink": "/category/程序介绍"
+  },
+  "next": {
+    "title": "实图介绍",
+    "permalink": "/feature/intr"
+  }
+}

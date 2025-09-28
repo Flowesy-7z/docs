@@ -1,0 +1,26 @@
+{
+  "id": "custom-js/baidu-tongji",
+  "title": "百度统计代码如何添加到 AikanPro",
+  "description": "登录 百度统计 后点击上方的 \"使用设置\"，在网站列表右侧点击 \"获取代码\"，然后复制代码添加到 AikanPro 的 \"自定义 JS\" 中即可。",
+  "source": "@site/docs/custom-js/baidu-tongji.mdx",
+  "sourceDirName": "custom-js",
+  "slug": "/custom-js/baidu-tongji",
+  "permalink": "/custom-js/baidu-tongji",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/custom-js/baidu-tongji.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "自定义代码示例",
+    "permalink": "/custom-js"
+  },
+  "next": {
+    "title": "更新日志",
+    "permalink": "/changelog"
+  }
+}

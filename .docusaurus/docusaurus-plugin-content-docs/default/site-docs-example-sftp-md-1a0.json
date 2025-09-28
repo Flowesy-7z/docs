@@ -1,0 +1,26 @@
+{
+  "id": "example/sftp",
+  "title": "SFTP",
+  "description": "待补充",
+  "source": "@site/docs/example/sftp.md",
+  "sourceDirName": "example",
+  "slug": "/example/sftp",
+  "permalink": "/example/sftp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/sftp.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "FTP",
+    "permalink": "/example/ftp"
+  },
+  "next": {
+    "title": "自定义代码示例",
+    "permalink": "/custom-js"
+  }
+}

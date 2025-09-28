@@ -1,0 +1,26 @@
+{
+  "id": "feature/text",
+  "title": "更新计划！",
+  "description": "| 演示快照，点击即看效果 | 网站 点击即可               |",
+  "source": "@site/docs/feature/text.mdx",
+  "sourceDirName": "feature",
+  "slug": "/feature/text",
+  "permalink": "/feature/text",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/feature/text.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "实图介绍",
+    "permalink": "/feature/intr"
+  },
+  "next": {
+    "title": "配置文件（必看）",
+    "permalink": "/category/配置文件必看"
+  }
+}

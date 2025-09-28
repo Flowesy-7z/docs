@@ -1,0 +1,26 @@
+{
+  "id": "example/ftp",
+  "title": "FTP",
+  "description": "待补充",
+  "source": "@site/docs/example/ftp.md",
+  "sourceDirName": "example",
+  "slug": "/example/ftp",
+  "permalink": "/example/ftp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/ftp.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1718851662000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "七牛云",
+    "permalink": "/example/qiniu"
+  },
+  "next": {
+    "title": "SFTP",
+    "permalink": "/example/sftp"
+  }
+}

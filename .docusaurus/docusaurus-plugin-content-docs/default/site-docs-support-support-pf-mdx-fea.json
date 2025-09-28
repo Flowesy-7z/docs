@@ -1,0 +1,24 @@
+{
+  "id": "support/support-pf",
+  "title": "技术支持",
+  "description": "- 官方文档内是有详细搭建教程的，一条龙服务只是提供给需要的人，该渠道是AikanPro官方服务渠道",
+  "source": "@site/docs/support/support-pf.mdx",
+  "sourceDirName": "support",
+  "slug": "/support/support-pf",
+  "permalink": "/support/support-pf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/support/support-pf.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "技术支持",
+    "permalink": "/support"
+  },
+  "next": {
+    "title": "先决条件",
+    "permalink": "/support/support-term"
+  }
+}

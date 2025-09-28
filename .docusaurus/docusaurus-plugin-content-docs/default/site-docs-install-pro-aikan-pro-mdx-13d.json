@@ -1,0 +1,26 @@
+{
+  "id": "install/Pro-AikanPro",
+  "title": "AikanPro",
+  "description": "在线视频安装教程",
+  "source": "@site/docs/install/Pro-AikanPro.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Pro-AikanPro",
+  "permalink": "/install/Pro-AikanPro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Pro-AikanPro.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "1、安装AikanProAPI",
+    "permalink": "/install/Pro-AikanProAPI"
+  },
+  "next": {
+    "title": "3、打包AikanProApp",
+    "permalink": "/install/Pro-AikanProApp"
+  }
+}

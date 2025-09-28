@@ -1,0 +1,26 @@
+{
+  "id": "question/download-log",
+  "title": "如何查看/下载日志？",
+  "description": "后台下载",
+  "source": "@site/docs/question/download-log.mdx",
+  "sourceDirName": "question",
+  "slug": "/question/download-log",
+  "permalink": "/question/download-log",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/question/download-log.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719472972000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "媒体上传失败怎么办？",
+    "permalink": "/question/upload-fail-baota"
+  },
+  "next": {
+    "title": "如何升级SG15",
+    "permalink": "/question/sg15"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "待完善/os-baota",
+              "path": "/待完善/os-baota"
+            },
+            {
+              "id": "待完善/os-windows",
+              "path": "/待完善/os-windows"
+            },
+            {
+              "id": "待完善/pro-baota",
+              "path": "/待完善/pro-baota"
+            },
+            {
+              "id": "待完善/pro-linux",
+              "path": "/待完善/pro-linux"
+            },
+            {
+              "id": "待完善/pro-windows",
+              "path": "/待完善/pro-windows"
+            },
+            {
+              "id": "ad/ad",
+              "path": "/ad/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "advanced/1",
+              "path": "/advanced/1"
+            },
+            {
+              "id": "advanced/adve",
+              "path": "/advanced/adve",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "advanced/api",
+              "path": "/advanced/api",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "advanced/icon",
+              "path": "/advanced/icon",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "advanced/img_public",
+              "path": "/advanced/img_public",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "advanced/push",
+              "path": "/advanced/push",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "changelog/os",
+              "path": "/changelog/os",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "changelog/pro",
+              "path": "/changelog/pro",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "config/config-db",
+              "path": "/config/config-db",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "config/config-debug",
+              "path": "/config/config-debug",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "config/config-port",
+              "path": "/config/config-port",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "custom-js/baidu-tongji",
+              "path": "/custom-js/baidu-tongji",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/cos",
+              "path": "/example/cos",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/ftp",
+              "path": "/example/ftp",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/obs",
+              "path": "/example/obs",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/oss",
+              "path": "/example/oss",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/qiniu",
+              "path": "/example/qiniu",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "example/sftp",
+              "path": "/example/sftp",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "feature/intr",
+              "path": "/feature/intr",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "feature/product",
+              "path": "/feature/product",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "feature/text",
+              "path": "/feature/text",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Free-AikanFree",
+              "path": "/install/Free-AikanFree",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Free-AikanFreeApi",
+              "path": "/install/Free-AikanFreeApi",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Free-AikanFreeApp",
+              "path": "/install/Free-AikanFreeApp",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Pro-AikanPro",
+              "path": "/install/Pro-AikanPro",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Pro-AikanProAPI",
+              "path": "/install/Pro-AikanProAPI",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Pro-AikanProApp",
+              "path": "/install/Pro-AikanProApp",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "install/Pro-AikanProImg",
+              "path": "/install/Pro-AikanProImg",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/bind-domain",
+              "path": "/question/bind-domain",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/download-log",
+              "path": "/question/download-log",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/reset-password",
+              "path": "/question/reset-password",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/run-multiple-instance",
+              "path": "/question/run-multiple-instance",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/sg15",
+              "path": "/question/sg15",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/start-fail",
+              "path": "/question/start-fail",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "question/upload-fail-baota",
+              "path": "/question/upload-fail-baota",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "support/support-pf",
+              "path": "/support/support-pf",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "support/support-term",
+              "path": "/support/support-term",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "UserGS",
+              "path": "/UserGS",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/快速安装必看",
+              "path": "/category/快速安装必看",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/install-os",
+              "path": "/install-os",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/install-pro",
+              "path": "/install-pro",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/程序介绍",
+              "path": "/category/程序介绍",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/配置文件必看",
+              "path": "/category/配置文件必看",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/高级功能",
+              "path": "/category/高级功能",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/常见问题",
+              "path": "/category/常见问题",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/图片上传配置",
+              "path": "/category/图片上传配置",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/custom-js",
+              "path": "/custom-js",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/changelog",
+              "path": "/changelog",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/support",
+              "path": "/support",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "install/Pro-AikanProAPI",
+  "title": "AikanProAPI",
+  "description": "快速跳转：反向代理",
+  "source": "@site/docs/install/Pro-AikanProAPI.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/Pro-AikanProAPI",
+  "permalink": "/install/Pro-AikanProAPI",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/install/Pro-AikanProAPI.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1720164568000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Pro 版（AikanPro）",
+    "permalink": "/install-pro"
+  },
+  "next": {
+    "title": "2、安装AikanPro（后台）",
+    "permalink": "/install/Pro-AikanPro"
+  }
+}

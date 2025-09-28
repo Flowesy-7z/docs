@@ -1,0 +1,28 @@
+{
+  "id": "example/obs",
+  "title": "华为云 OBS",
+  "description": "帮我安装🔍",
+  "source": "@site/docs/example/obs.md",
+  "sourceDirName": "example",
+  "slug": "/example/obs",
+  "permalink": "/example/obs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/example/obs.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {
+    "sidebar_label": "华为云 OBS"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "腾讯云 COS",
+    "permalink": "/example/cos"
+  },
+  "next": {
+    "title": "七牛云",
+    "permalink": "/example/qiniu"
+  }
+}

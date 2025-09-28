@@ -1,0 +1,26 @@
+{
+  "id": "advanced/push",
+  "title": "消息推送配置",
+  "description": "配置unipush消息通知",
+  "source": "@site/docs/advanced/push.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/push",
+  "permalink": "/advanced/push",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Flowesy-7z/docs/docs/advanced/push.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Flowesy-7z",
+  "lastUpdatedAt": 1719559463000,
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "激励广告",
+    "permalink": "/advanced/adve"
+  },
+  "next": {
+    "title": "常见问题",
+    "permalink": "/category/常见问题"
+  }
+}
